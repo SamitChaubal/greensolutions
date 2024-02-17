@@ -113,6 +113,18 @@ button.active.dropdown-button:hover {
   cursor: pointer;
 }
 
+
+/* content */
+.intro-content .info{
+  width:50%;
+}
+
+.intro-content img{
+  width: 50%;
+  float: right;
+}
+
+
 .energy-buttons button {
   width: 200px;
   height: 200px;
