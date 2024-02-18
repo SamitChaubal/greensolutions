@@ -119,22 +119,21 @@ button.active.dropdown-button:hover {
   cursor: pointer;
 }
 
+.intro-content{
+  width:100%
+}
 
 /* content */
 .intro-content .info:not(img){
   width: 45%;
   float: right;
-  margin-right: 2%;
-  margin-left: none;
+  text-align: center;
 }
 
 .intro-content img{
-  height: 10%;
-  width: 45%;
-  float: left;
-  margin-left: 3%;
-  margin-top:5%;
-  margin-right: none;
+  display: inline-block;
+  margin: 5% 4%;
+  width: 100%;
 }
 .intro-content{
   display: inline-block;
@@ -154,6 +153,13 @@ button.active.dropdown-button:hover {
   font-size: 2vw;
   margin-top: 9%;
 }
+
+
+
+
+
+
+
 .energy-buttons {
   display: flex;
   justify-content: center;
@@ -203,7 +209,7 @@ footer{
   position: relative;
   left: 7%;
   width: 100%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin-top: auto;
   margin-bottom: -2%;
 }
