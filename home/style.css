@@ -158,7 +158,8 @@ button.active.dropdown-button:hover {
 
 footer{
   position: fixed;
-  left: 0;
+  left: 40px;
   bottom: 0;
   width: 100%;
+  font-size: 17.5px;
 }
