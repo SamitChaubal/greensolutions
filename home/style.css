@@ -186,8 +186,28 @@ button.active.dropdown-button:hover {
   font-family: 'sans-serif', 'tahoma', 'Times New Roman';
 }
 
-.energy-buttons .first{
+.energy-buttons .solar{
   margin-right: 10%;
+}
+.energy-buttons .color{
+  background-color: #43b6a5;
+}
+
+
+.solar-content{
+  display: none;
+}
+
+.wind-content{
+  display: none;
+}
+
+.solar-content.show{
+  display: block;
+}
+
+.wind-content.show{
+  display: block;
 }
 
 footer{
