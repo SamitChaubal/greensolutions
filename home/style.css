@@ -120,8 +120,10 @@ button.active.dropdown-button:hover {
 }
 
 .intro-content img{
+  height: 10%;
   width: 50%;
   float: right;
+
 }
 
 
