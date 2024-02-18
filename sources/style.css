@@ -1,9 +1,13 @@
 html {
   height: 100%;
   width: 100%;
+
+  body {
+  background: #ebffde;
 }
-body{
-  background: white;
+}
+body {
+  background: #ebffde;
 }
 .topnav {
   position: relative;

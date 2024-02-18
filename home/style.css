@@ -5,7 +5,7 @@ min-height: 100%;
 }
 
 body {
-  background: rgb(235, 255, 222);
+  background: #ebffde;
 }
 
 main {
@@ -119,22 +119,31 @@ button.active.dropdown-button:hover {
 .intro-content .info:not(img){
   width: 45%;
   float: right;
+  margin-right: 2%;
+  margin-left: none;
 }
 
 .intro-content img{
   height: 10%;
   width: 45%;
   float: left;
-  margin-left: 6%;
+  margin-left: 3%;
   margin-top:5%;
+  margin-right: none;
 }
 .intro-content{
   display: inline-block;
 }
 
 .intro-content h2{
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
+  font-size: 2.4vw;
+  margin-top: 9%;
+}
+
+.intro-content p{
   font-family: 'tahoma', 'Times New Roman';
-  font-size: 3vw;
+  font-size: 2vw;
   margin-top: 9%;
 }
 .energy-buttons {
