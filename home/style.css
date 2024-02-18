@@ -1,11 +1,14 @@
 html {
   height: 100%;
   width: 100%;
-min-height: 100%;
+  min-height: 100vh;
 }
 
 body {
   background: #ebffde;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column
 }
 
 main {
@@ -156,8 +159,8 @@ button.active.dropdown-button:hover {
   height: 100%;
 }
 .energy-buttons button {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   display: inline-block;
   text-decoration: none;
   border-radius: 50%;
@@ -191,13 +194,14 @@ button.active.dropdown-button:hover {
 
 .click-text{
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.8vw;
 }
 
 footer{
   position: relative;
-  left: 40px;
-  bottom: 0;
+  left: 7%;
   width: 100%;
-  font-size: 17.5px;
+  font-size: 2vw;
+  margin-top: auto;
+  margin-bottom: -2%;
 }
