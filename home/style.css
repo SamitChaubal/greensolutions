@@ -136,17 +136,23 @@ button.active.dropdown-button:hover {
   font-size: 40px;
   margin-top: 9%;
 }
-
+.energy-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .energy-buttons button {
   width: 200px;
   height: 200px;
   display: inline-block;
   text-decoration: none;
   border-radius: 50%;
-  margin-left: 10%;
   border: none;
   background-color: #3ac94a;
   box-shadow: 10px 5px 5px grey;
+  margin-top: 30px;
+  position: relative;
 }
 
 .energy-buttons button:hover{
@@ -166,7 +172,9 @@ button.active.dropdown-button:hover {
   font-family: 'tahoma', 'Times New Roman';
 }
 
-
+.energy-buttons .first{
+  margin-right: 10%;
+}
 footer{
   position: relative;
   left: 40px;
