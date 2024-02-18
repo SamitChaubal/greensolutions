@@ -175,6 +175,10 @@ button.active.dropdown-button:hover {
 .energy-buttons .first{
   margin-right: 10%;
 }
+
+.click-text{
+  text-align: center;
+}
 footer{
   position: relative;
   left: 40px;
