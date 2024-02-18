@@ -122,9 +122,10 @@ button.active.dropdown-button:hover {
 
 .intro-content img{
   height: 10%;
-  width: 45%;
+  width: 35%;
   float: left;
-
+  margin-left: 10%;
+  margin-top:5%;
 }
 .intro-content{
   display: inline-block;
@@ -133,6 +134,7 @@ button.active.dropdown-button:hover {
 .intro-content h2{
   font-family: 'tahoma', 'Times New Roman';
   font-size: 40px;
+  margin-top: 9%;
 }
 
 .energy-buttons button {
