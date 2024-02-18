@@ -117,12 +117,13 @@ button.active.dropdown-button:hover {
 /* content */
 .intro-content .info:not(img){
   width:40%;
+  float: right;
 }
 
 .intro-content img{
   height: 10%;
   width: 40%;
-  float: right;
+  float: left;
 
 }
 .intro-content{
@@ -134,7 +135,7 @@ button.active.dropdown-button:hover {
   height: 200px;
   display: inline-block;
   text-decoration: none;
-  border-radius: 10%;
+  border-radius: 50%;
   margin: 20px;
 }
 
@@ -145,4 +146,5 @@ button.active.dropdown-button:hover {
   height: 100%;
   font-size: 20px;
   color: black;
+  text-align: center;
 }
