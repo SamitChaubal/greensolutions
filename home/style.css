@@ -136,15 +136,16 @@ button.active.dropdown-button:hover {
 }
 
 .energy-buttons button {
-  width: 100%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
   display: inline-block;
   text-decoration: none;
   border-radius: 50%;
-  margin: 20px;
+  margin-left: 10%;
+
 }
 
-.energy-buttons button a {
+.energy-buttons button p{
   text-decoration: none;
   position: relative;
   height: 100%;
@@ -155,6 +156,9 @@ button.active.dropdown-button:hover {
 }
 
 
-.footer{
-  vertical-align: baseline;
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
