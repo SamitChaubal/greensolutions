@@ -1,19 +1,3 @@
-
-/*function solarButton() {
-  var content = document.getElementsByClassName("solar-content");
-  content.classList.toggle("show");
-  var button = document.getElementsByClassName("solar");
-  button.classList.toggle("color");
-};
-
-function windButton() {
-  var content = document.getElementsByClassName("wind-content");
-  content.classList.toggle("show");
-  var button = document.getElementsByClassName("wind");
-  button.classList.toggle("color");
-};
-*/
-
 function solarButton() {
   var button = document.getElementById("solar");
   var content = document.getElementById("solar-content");
