@@ -133,11 +133,11 @@ button.active.dropdown-button:hover {
 
 .intro-content h2{
   font-family: 'tahoma', 'Times New Roman';
-  font-size: 60px;
+  font-size: 35px;
   margin-top: 9%;
 }
 .intro-content p{
-  
+  font-size:20px;
 }
 .energy-buttons {
   display: flex;
