@@ -130,6 +130,11 @@ button.active.dropdown-button:hover {
   display: inline-block;
 }
 
+.intro-content h2{
+  font-family: 'Times New Roman';
+  font-size: 40px;
+}
+
 .energy-buttons button {
   width: 200px;
   height: 200px;
