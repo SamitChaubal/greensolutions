@@ -115,17 +115,19 @@ button.active.dropdown-button:hover {
 
 
 /* content */
-.intro-content .info{
-  width:50%;
+.intro-content .info:not(img){
+  width:40%;
 }
 
 .intro-content img{
   height: 10%;
-  width: 50%;
+  width: 40%;
   float: right;
 
 }
-
+.intro-content{
+  display: inline-block;
+}
 
 .energy-buttons button {
   width: 200px;
