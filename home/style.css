@@ -116,13 +116,13 @@ button.active.dropdown-button:hover {
 
 /* content */
 .intro-content .info:not(img){
-  width:40%;
+  width: 45%;
   float: right;
 }
 
 .intro-content img{
   height: 10%;
-  width: 40%;
+  width: 45%;
   float: left;
 
 }
