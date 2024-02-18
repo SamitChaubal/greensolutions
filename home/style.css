@@ -1,11 +1,15 @@
 html {
   height: 100%;
   width: 100%;
-min-height: 100%;
+  min-height: 100vh;
 }
 
 body {
   background: #ebffde;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 main {
@@ -82,6 +86,7 @@ button.active.dropdown-button {
   background-color: rgba(0, 0, 0, 0);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
 .dropdown-content a {
@@ -137,8 +142,11 @@ button.active.dropdown-button:hover {
 
 .intro-content h2{
   font-family: 'sans-serif', 'tahoma', 'Times New Roman';
-  font-size: 2.4vw;
+  font-size: 2.6vw;
   margin-top: 9%;
+  white-space: nowrap;
+  float: left;
+  margin-left: -5%;
 }
 
 .intro-content p{
@@ -153,8 +161,8 @@ button.active.dropdown-button:hover {
   height: 100%;
 }
 .energy-buttons button {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   display: inline-block;
   text-decoration: none;
   border-radius: 50%;
@@ -188,13 +196,14 @@ button.active.dropdown-button:hover {
 
 .click-text{
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.8vw;
 }
 
 footer{
   position: relative;
-  left: 40px;
-  bottom: 0;
+  left: 7%;
   width: 100%;
-  font-size: 17.5px;
+  font-size: 2vw;
+  margin-top: auto;
+  margin-bottom: -2%;
 }
