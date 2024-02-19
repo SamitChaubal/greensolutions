@@ -279,20 +279,32 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
   display: inline-block;
 }
 .row .right{
-  width: 35%;
+  width: 40%;
   float: right;
-  margin-right: -50%;
+  margin-right: 5%;
   margin-top:5%;
 }
 .row .left{
   height: 10%;
-  width: 35%;
+  width: 40%;
   float: left;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top:5%;
   margin-right: none;
 }
 
+.row h2{
+  font-size:3vw;
+  margin-left: 20%;
+  margin-top: 1%;
+}
+.row ul{
+  font-size:1.5vw;
+
+}
+.row .left h2{
+  margin-bottom: 15%;
+}
 footer{
   position: relative;
   left: 7%;
