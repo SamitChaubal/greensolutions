@@ -152,7 +152,6 @@ button.active.dropdown-button:hover {
   font-family: 'sans-serif', 'tahoma', 'Times New Roman';
   font-size: 2.35vw;
   margin-top: 9%;
-  white-space: nowrap;
   float: left;
   margin-left: -5%;
 }
