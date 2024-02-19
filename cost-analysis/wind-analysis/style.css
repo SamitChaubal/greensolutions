@@ -184,6 +184,11 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
   cursor: default;
 }
 
+.row.bottom{
+  margin-left: 35%;
+  margin-top: 28%;
+}
+
 
 
 
