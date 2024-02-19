@@ -253,6 +253,14 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
 
 }
 
+.solar-content h2, .wind-content h2{
+  font-family: 'callibri-body';
+
+}
+.solar-content h4, .wind-content h4{
+  font-family: 'callibri-body';
+  
+}
 .wind-content h4.last{
   font-size: 15;
   margin-left: 3.7vw;
