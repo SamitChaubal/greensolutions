@@ -58,12 +58,6 @@ h1 {
   color: black;
 }
 
-a.active,
-button.active.dropdown-button {
-  color: rgb(255, 255, 255);
-  background-color: #000000;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -115,8 +109,12 @@ button.active.dropdown-button:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
- }
+}
 
+.dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
 
 .container {
   display: inline-block;
@@ -134,11 +132,12 @@ button.active.dropdown-button:hover {
 }
 
 .intro-content img{
-  display: inline-block;
-  padding-left: 10vw;
-  padding-right: 10vw;
-   margin:0 auto;
-   width:60%;
+  height: 10%;
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+  margin-top:5%;
+  margin-right: none;
 }
 .intro-content{
   display: inline-block;
