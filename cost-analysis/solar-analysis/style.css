@@ -183,6 +183,7 @@ button.active.dropdown-button:hover {
 .row button{
   width: 30vw;
   height: 20vw;
+  cursor: default;
 }
 
 

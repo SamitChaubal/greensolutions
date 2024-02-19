@@ -114,7 +114,7 @@ button.active.dropdown-button:hover {
   display: block;
 }
 
-.dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
+a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
   color: rgb(255, 255, 255);
   background-color: #000000;
 }
