@@ -183,8 +183,13 @@ button.active.dropdown-button:hover {
 .column h3{
   font-family: 'sans-serif', 'tahoma', 'Times New Roman';
   font-size: 2vw;
+  font-weight: bold;
 }
-
+.column p{
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
+  font-size: 1.5vw;
+  font-weight: normal;
+}
 
 
 footer{
