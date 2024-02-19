@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
 }
 
 body {
@@ -11,14 +11,12 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 main {
   z-index: 1;
 }
 
- 
 h1 {
   z-index: 1;
 }
@@ -28,10 +26,10 @@ h1 {
   height: 55px;
   float: left;
   display: block;
-  margin-left: 9vw;
-  margin-right: 9vw;
+  padding-left: 10%;
+  padding-right: 15%;
 }
- 
+
 .topnav {
   background-color: inherit;
   overflow: hidden;
@@ -61,7 +59,7 @@ h1 {
 }
 
 .topnav a, .dropdown-content a, .dropdown-button{
-  font-size: 1.2vw;
+  font-size: 1.5vw;
 }
 
 .dropdown {
@@ -116,15 +114,16 @@ button.active.dropdown-button:hover {
   display: block;
 }
 
-.dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
+a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
   color: rgb(255, 255, 255);
   background-color: #000000;
 }
 
+
 .container {
   display: inline-block;
   cursor: pointer;
- }
+}
 
 
 
@@ -183,7 +182,7 @@ button.active.dropdown-button:hover {
 .row button{
   width: 30vw;
   height: 20vw;
-  cursor: default;
+  cursor: 
 }
 
 
