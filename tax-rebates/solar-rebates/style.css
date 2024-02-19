@@ -158,6 +158,30 @@ button.active.dropdown-button:hover {
   margin-top: 9%;
 }
 
+.column {
+  float: left;
+  width: 28%;
+}
+.column:first-child {
+  margin-left: 5%;
+}
+.column:not(:first-child) {
+  margin-left: 5%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column h3{
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
+  font-size: 2vw;
+}
+
+
+
 footer{
   position: relative;
   left: 7%;
