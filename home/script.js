@@ -11,6 +11,7 @@ function solarButton() {
   content.classList.toggle("show");
   windContent.classList.remove("show");
   windButton.classList.remove("color");
+  content.scrollIntoView(true);
 };
 
 function windButton() {
@@ -26,4 +27,5 @@ function windButton() {
   content.classList.toggle("show");
   solarContent.classList.remove("show");
   solarButton.classList.remove("color");
+  content.scrollIntoView(true);
 };
