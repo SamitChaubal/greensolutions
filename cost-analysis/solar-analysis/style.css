@@ -182,7 +182,7 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
 .row button{
   width: 30vw;
   height: 20vw;
-  cursor: 
+  cursor: default;
 }
 
 
