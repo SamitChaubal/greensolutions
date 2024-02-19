@@ -266,6 +266,25 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
 
 }
 
+
+.row.solar-content, .row.wind-content{
+  display: inline-block;
+}
+.row .right{
+  width: 35%;
+  float: right;
+  margin-right: -50%;
+  margin-top:5%;
+}
+.row .left{
+  height: 10%;
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top:5%;
+  margin-right: none;
+}
+
 footer{
   position: relative;
   left: 7%;
