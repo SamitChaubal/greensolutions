@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 main {
@@ -26,8 +28,8 @@ h1 {
   height: 55px;
   float: left;
   display: block;
-  padding-left: 10%;
-  padding-right: 15%;
+  margin-left: 9vw;
+  margin-right: 9vw;
 }
  
 .topnav {
@@ -43,7 +45,7 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -58,6 +60,10 @@ h1 {
   color: black;
 }
 
+.topnav a, .dropdown-content a, .dropdown-button{
+  font-size: 1.2vw;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
@@ -65,7 +71,6 @@ h1 {
 }
 
 .dropdown .dropdown-button {
-  font-size: 20px;
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -154,7 +159,7 @@ button.active.dropdown-button:hover {
 
 .intro-content p{
   font-family: 'tahoma', 'Times New Roman';
-  font-size: 2vw;
+  font-size: 1.4vw;
   margin-top: 9%;
 }
 
@@ -178,8 +183,13 @@ button.active.dropdown-button:hover {
 .column h3{
   font-family: 'sans-serif', 'tahoma', 'Times New Roman';
   font-size: 2vw;
+  font-weight: bold;
 }
-
+.column p{
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
+  font-size: 1.5vw;
+  font-weight: normal;
+}
 
 
 footer{
@@ -188,5 +198,5 @@ footer{
   width: 100%;
   font-size: 1.5vw;
   margin-top: auto;
-  margin-bottom: -2%;
+  margin-bottom: none;
 }

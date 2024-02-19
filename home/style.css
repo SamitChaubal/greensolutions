@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,12 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 main {
   z-index: 1;
 }
 
+ 
 h1 {
   z-index: 1;
 }
@@ -25,15 +28,14 @@ h1 {
   height: 55px;
   float: left;
   display: block;
-  padding-left: 10%;
-  padding-right: 15%;
+  margin-left: 9vw;
+  margin-right: 9vw;
 }
-
+ 
 .topnav {
   background-color: inherit;
   overflow: hidden;
   width: 100%;
-  display: fixed;
 }
 
 .topnav a {
@@ -43,9 +45,8 @@ h1 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2vw;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: fixed;
 }
 
 .topnav div:not(.dropdown-content) {
@@ -53,15 +54,14 @@ h1 {
 }
 
 .topnav a:hover:not(a.active, button.active.dropdown-button),
+ 
 .topnav button:hover:not(a.active, button.active.dropdown-button) {
   background-color: #aeaeae;
   color: black;
 }
 
-a.active,
-button.active.dropdown-button {
-  color: rgb(255, 255, 255);
-  background-color: #000000;
+.topnav a, .dropdown-content a, .dropdown-button{
+  font-size: 1.2vw;
 }
 
 .dropdown {
@@ -71,7 +71,6 @@ button.active.dropdown-button {
 }
 
 .dropdown .dropdown-button {
-  font-size: 20px;
   border: none;
   outline: none;
   color: rgb(0, 0, 0);
@@ -88,6 +87,7 @@ button.active.dropdown-button {
   background-color: rgba(0, 0, 0, 0);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ 
   z-index: 100;
 }
 
@@ -104,6 +104,7 @@ button.active.dropdown-button {
 
 .dropdown-content a:hover:not(a.active, button.active.dropdown-button) {
   background-color: #ddd;
+ 
 }
 
 a.active:hover,
@@ -114,6 +115,16 @@ button.active.dropdown-button:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.dropdown button.dropdown-button.active,  .dropdown .dropdown-content a.active{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+ }
 
 
 .container {
