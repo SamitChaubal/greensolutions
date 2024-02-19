@@ -191,11 +191,6 @@ button.active.dropdown-button:hover {
   font-weight: normal;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
 footer{
   position: relative;
