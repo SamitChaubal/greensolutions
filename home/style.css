@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
   min-height: 100vh;
+  font-family: 'sans-serif', 'tahoma', 'Times New Roman';
 }
 
 body {
@@ -204,10 +205,59 @@ button.active.dropdown-button:hover {
 
 .solar-content.show{
   display: block;
+  
+}
+.solar-content h2 {
+  font-size: 4vw;
+  margin-left: 4vw;
+}
+.solar-content h4 {
+  font-size: 15;
+  margin-left: 3.7vw;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.solar-content h4.last{
+  font-size: 15;
+  margin-left: 3.7vw;
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10%;
+
+}
+.solar-content ul{
+  list-style-type: none;
+
 }
 
 .wind-content.show{
   display: block;
+}
+.wind-content h2 {
+  font-size: 4vw;
+  margin-left: 4vw;
+}
+.wind-content h4 {
+  font-size: 15;
+  margin-left: 3.7vw;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+.wind-content h4.last{
+  font-size: 15;
+  margin-left: 3.7vw;
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10%;
+
+}
+.wind-content ul{
+  list-style-type: none;
+
 }
 
 footer{
