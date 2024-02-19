@@ -253,6 +253,14 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
 
 }
 
+.solar-content h2, .wind-content h2{
+  font-family: 'callibri-body';
+
+}
+.solar-content h4, .wind-content h4{
+  font-family: 'callibri-body';
+  
+}
 .wind-content h4.last{
   font-size: 15;
   margin-left: 3.7vw;
@@ -264,6 +272,25 @@ a.active, .dropdown button.dropdown-button.active,  .dropdown .dropdown-content 
 .wind-content ul{
   list-style-type: none;
 
+}
+
+
+.row.solar-content, .row.wind-content{
+  display: inline-block;
+}
+.row .right{
+  width: 35%;
+  float: right;
+  margin-right: -50%;
+  margin-top:5%;
+}
+.row .left{
+  height: 10%;
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top:5%;
+  margin-right: none;
 }
 
 footer{
